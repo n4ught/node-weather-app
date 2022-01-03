@@ -32,7 +32,7 @@ app.get('', (req, res) => {
     // the filename in the views folder.
     res.render('index', {
         title: 'Weather',
-        name: 'Andrew'
+        name: 'Arjay'
     });
 
 });
@@ -41,7 +41,7 @@ app.get('/about', (req, res) => {
 
     res.render('about', {
         title: 'About Me',
-        name: 'Andrew'
+        name: 'Arjay'
     });
 
 });
@@ -51,7 +51,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         message: 'This is a help message',
         title: 'Help',
-        name: 'Andrew Mead'
+        name: 'Arjay'
     });
 
 });
